@@ -62,4 +62,3 @@ This project helps you practice:
 * Struct handling
 * Pointer manipulation
 
-If you want, I can generate a full project folder with all `.c` and `.h` files.
