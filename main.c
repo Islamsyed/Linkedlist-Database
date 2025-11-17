@@ -9,7 +9,7 @@ int main(){
 
         while(1)
         {
-                printf("1 :addbeg 2 :addlast 3 :print data 4 :delbeg  5 :dellast 6 :addsort 7 :save 8 :middlenode 9 :exit\n");
+                printf("1 :addbeg 2 :addlast 3 :print data 4 :delbeg  5 :dellast 6 :addsort 7 :save 8 :middlenode 9 :delall 10:exit\n");
                 printf("enter the choice : ");
                 scanf("%d",&choice);
                 switch(choice)
@@ -30,7 +30,9 @@ int main(){
                                  break;
                         case 8 : mid=middlenode(head);
                                  break;
-                        case 9 : exit(0);
+                        case 9 : head=delall(head);
+                                 break;
+                        case 10 :exit(0);
                                  break;
                         default :printf("enter correct choice\n");
                 }
