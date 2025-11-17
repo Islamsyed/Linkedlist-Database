@@ -1,4 +1,4 @@
-void search_record(NODE *ptr, int key)
+void search(NODE *ptr, int key)
 {
     NODE *temp = ptr;
 
