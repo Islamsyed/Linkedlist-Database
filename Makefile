@@ -1,5 +1,5 @@
-a.out : main.o addbeg.o addlast.o delbeg.o dellast.o addsort.o middlenode.o print.o save.o sync.o delall.o
-        gcc main.o addbeg.o addlast.o delbeg.o dellast.o addsort.o middlenode.o print.o save.o sync.o delall.o -o a.out
+a.out : main.o addbeg.o addlast.o delbeg.o dellast.o addsort.o middlenode.o print.o save.o sync.o delall.o search.o
+        gcc main.o addbeg.o addlast.o delbeg.o dellast.o addsort.o middlenode.o print.o save.o sync.o delall.o search.o -o a.out
 main.o : main.c
         cc -c main.c
 addbeg.o : addbeg.c
@@ -18,6 +18,8 @@ print.o : print.c
         cc -c print.c
 delall.o : delall.c
         cc -c delall.c
+search.o : search.c
+        cc -c search.c
 save.o : save.c
         cc -c save.c
 sync.o : sync.c
