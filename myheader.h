@@ -13,17 +13,18 @@ typedef struct node{
 }NODE;
 extern int size;
 
-NODE * addbeg(NODE * ptr);
-NODE * addlast(NODE * ptr);
-void print(NODE * ptr);
-NODE * delbeg(NODE * ptr);
-NODE * dellast(NODE * ptr);
-NODE * addsort(NODE * ptr);
-void save(NODE * ptr);
-NODE * sync(NODE * ptr);
-NODE * middlenode(NODE * ptr);
-void primenodes(NODE * ptr);
+NODE * addbeg(NODE *);
+NODE * addlast(NODE *);
+void print(NODE *);
+NODE * delbeg(NODE *);
+NODE * dellast(NODE *);
+NODE * addsort(NODE *);
+void save(NODE *);
+NODE * sync(NODE *);
+NODE * middlenode(NODE *);
+void primenodes(NODE *);
 int prime(int);
 NODE * delall(NODE *);
+void search(NODE *,int);
 
 #endif
